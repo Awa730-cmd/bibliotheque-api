@@ -98,7 +98,7 @@ API REST modulaire et sécurisée conçue avec Flask, permettant de gérer un ca
 ## 🚀 Fonctionnalités
 - **Authentification & Sécurité** : Inscription, connexion, jetons JWT (Access/Refresh), contrôle d'accès basé sur les rôles (`member` vs `staff`).
 - **Gestion du Catalogue** : CRUD complet des livres et des auteurs avec pagination et recherche.
-- **Gestion des Emprunts** : Réservation, retour, limite de 3 emprunts simultanés, blocage des livres indisponibles.
+- **Gestion des Emprunts** : Emprunt , retour, limite de 3 emprunts simultanés, blocage des livres indisponibles.
 - **Documentation OpenAPI** : Interface Swagger UI accessible sur `/docs/`.
 - **Santé de l'Application** : Endpoint `/health` avec contrôle en temps réel de la connexion à la base de données.
 
